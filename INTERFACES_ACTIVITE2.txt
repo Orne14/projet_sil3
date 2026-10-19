@@ -1,0 +1,47 @@
+﻿ACTIVITE 2 - APERCU DES INTERFACES
+
+FENETRE PRINCIPALE - Gestion des etudiants
+
++------------------------------------------------------------------------------------------+
+| Gestion des etudiants                                                                    |
+|                                                                                          |
+| Nom :                    [ txtNom                                      ]                  |
+| Tronc commun :           [ txtTC ]   Mention TC                                         |
+| Specialite :             [ txtSpe ]  Mention specialite                                  |
+| EPP :                    [ txtEPP ]  Mention EPP                                        |
+| Moyenne generale : -                                                                    |
+|                                                                                          |
+| [ Ajouter ] [ Actualiser le classement ] [ Voir le bulletin ]                           |
+|                                                                                          |
+| Classement                                                                          |
+| +--------------------------------------------------------------------------------------+ |
+| | Rang | Nom | Tronc commun | Mention TC | Specialite | Mention specialite | EPP | ... | |
+| |      |     |              |            |            |                    |     |     | |
+| |      |     |              |            |            |                    |     |     | |
+| +--------------------------------------------------------------------------------------+ |
++------------------------------------------------------------------------------------------+
+
+- Les notes sont saisies sur 20. La virgule et le point sont acceptes comme separateur decimal.
+- Les mentions s'affichent en vert fonce si la note est au moins 10, en rouge fonce sinon.
+- Le tableau presente les etudiants par moyenne decroissante. La colonne technique IdEtudiant
+  n'est pas affichee.
+- Pour ouvrir un bulletin, selectionner un etudiant dans le tableau puis cliquer sur
+  « Voir le bulletin ».
+
+FENETRE SECONDAIRE - Bulletin de l'etudiant choisi
+
++------------------------------------------------+
+| Bulletin de l'etudiant                         |
+|                                                |
+| Nom :                  Nom de l'etudiant        |
+| Tronc commun :         note / 20    mention     |
+| Specialite :           note / 20    mention     |
+| EPP :                  note / 20    mention     |
+|                                                |
+| Moyenne generale :     moyenne                   |
+| Rang :                 rang                      |
+|                                                |
++------------------------------------------------+
+
+Les deux fenetres gardent les couleurs, la police et le fond par defaut de Windows,
+à l'exception des mentions validees ou non validees.

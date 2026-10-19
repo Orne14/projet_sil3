@@ -1,0 +1,5 @@
+﻿Copier le dossier sur le disque dur avant de lancer le programme (le CD est en lecture seule).
+Garder etudiants.accdb à côté du programme, dans le même dossier que le fichier exe.
+Au premier démarrage, la table Etudiants est créée si elle n'existe pas.
+Si une erreur de fournisseur apparaît, installer le moteur Microsoft Access Database Engine.
+Projet prévu pour .NET Framework 4.7.2 et une plateforme cible x86.
